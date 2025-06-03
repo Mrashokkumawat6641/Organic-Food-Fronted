@@ -106,7 +106,9 @@ function Register({ closeRegister }) {
 
   const handleGoogleSignUp = () => {
     // Redirect to your backend Google OAuth URL
-    window.open("https://organic-food-dt19.onrender.com/api/auth/google", "_self");
+    window.open("https://organic-food-api.onrender.com/api/auth/google", "_self");
+
+
   };
 
   return (
