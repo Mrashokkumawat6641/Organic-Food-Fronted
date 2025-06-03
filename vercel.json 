@@ -1,6 +1,11 @@
 {
   "headers": [
-    {
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
+    ,{
       "source": "/(.*)",
       "headers": [
         {
